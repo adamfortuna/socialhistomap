@@ -7,7 +7,7 @@ export let years
 export let width
 
 
-import { maxBy } from 'lodash'
+import maxBy from 'lodash/maxBy'
 import { forceSimulation, forceX, forceY, forceCollide } from "d3-force"
 import { extent } from 'd3-array'
 import { scaleSqrt } from "d3-scale";
